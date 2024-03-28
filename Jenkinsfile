@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker compose up --build'
+                sh 'npm start'
             }
         }
         stage('Test') {
